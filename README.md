@@ -342,3 +342,4 @@ The script will submit a batch, poll status until complete, download a sample PD
 
 ### Q4: Why ReportLab over headless Chrome / HTML-to-PDF?
 > **Answer:** Headless Chrome (Playwright/Puppeteer) or WeasyPrint requires heavy browser binaries or native system libraries (`libcairo`, `libpango`). ReportLab is pure Python/C-accelerated, lightweight, uses minimal memory, produces genuine vector PDFs (sharp at any zoom level), and runs reliably in any containerized environment without system-level font/cairo dependencies.
+# Bulk-gertificate-generator-
